@@ -3,6 +3,7 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
+# Pages source configured; redeploy trigger
 permissions:
   contents: read
   pages: write
